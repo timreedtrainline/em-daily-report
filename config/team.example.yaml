@@ -1,0 +1,40 @@
+# Copy this file to team.yaml and replace example values.
+
+team:
+  name: "Cloud Native Developer Experience"
+  manager: "Your Name"
+
+github:
+  organization: "trainline-private"
+  repositories:
+    - "example-repo-one"
+    - "example-repo-two"
+  engineers:
+    - name: "Engineer One"
+      github: "engineer-one"
+    - name: "Engineer Two"
+      github: "engineer-two"
+
+jira:
+  base_url: "https://your-company.atlassian.net"
+  projects:
+    - "CNDX"
+  statuses:
+    in_progress:
+      - "In Progress"
+    in_review:
+      - "In Review"
+    blocked:
+      - "Blocked"
+    done:
+      - "Done"
+
+slack:
+  team_channels:
+    - "cloud-native-devex"
+    - "team-engineering"
+  non_team_channel_allowlist: []
+
+outlook:
+  included_calendars:
+    - "Primary"
