@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.DS_Store
+reports/*.md
+reports/history/**/*.md
+!reports/.gitkeep
+!reports/history/.gitkeep
+config/team.local.yaml

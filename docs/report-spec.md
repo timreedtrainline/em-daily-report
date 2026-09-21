@@ -2,23 +2,7 @@
 
 ## Sections
 
-### 1. Meetings Today
-
-Fields:
-- Title
-- Time
-- Attendees
-- Join link
-- Context
-- Preparation prompts
-
-Preparation prompt examples:
-- What decision do I need from this meeting?
-- What blocker should I raise?
-- Who needs support from me?
-- What follow-up do I want to leave with clear ownership?
-
-### 2. Open Pull Requests
+### 1. Open Pull Requests
 
 Fields:
 - Engineer
@@ -32,13 +16,12 @@ Grouping:
 - Group by engineer
 - Sort oldest first within each engineer
 
-### 3. Ticket Flow
+### 2. Ticket Flow
 
 Subsections:
-- Completed since yesterday
-- In progress more than 2 days
-- In review more than 2 days
-- Blocked more than 2 days
+- Completed since the previous `9:15 a.m.` briefing window
+- On track
+- Off track
 
 Fields:
 - Assignee
@@ -46,14 +29,27 @@ Fields:
 - Title
 - Link
 - Status
-- Days in current state
+- Business-day age in current state
 
-### 4. Slack Follow-Ups
+### 3. Slack Follow-Ups
 
 Subsections:
 - Later items
-- Non-team channel messages
 - Team channel threads
+- Secondary channel updates
+
+Fields:
+- Channel
+- Author
+- Excerpt
+- Link
+- Why it matters
+
+### 4. AI Updates
+
+Subsections:
+- AI channel highlights
+- Important replies or decisions
 
 Fields:
 - Channel
@@ -67,16 +63,28 @@ Fields:
 Generate one Markdown report per day with this structure:
 
 1. Executive summary
-2. Meetings today
-3. PRs by engineer
-4. Ticket flow
-5. Slack follow-ups
+2. PRs by engineer
+3. Ticket flow
+4. Slack follow-ups
+5. AI updates
 6. Suggested manager actions
 
 ## Rules To Finalize
 
 - Which repositories belong to the team
 - Which Jira projects or boards define team work
-- Which Slack channels count as team channels
-- Whether completed tickets are "completed today" or "completed since last report"
-- Whether stagnant means more than 2 full days or at least 48 hours
+- Daily briefing cutoff is explicitly `9:15 a.m.` local time
+- Completed tickets use the prior-day `9:15 a.m.` to current-day `9:15 a.m.` briefing window
+- On-track vs off-track uses business-day current-state aging, with weekends discounted
+
+## Slack Scope Priority
+
+Primary:
+- `team_channels`
+
+Secondary:
+- `management_channels`
+- `office_and_networks_channels`
+
+Separate section:
+- `ai_channels`

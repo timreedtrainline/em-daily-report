@@ -1,0 +1,50 @@
+[
+  {
+    "engineer": "Giorgi Dolmazashvili",
+    "repository": "tl-ai-capabilities",
+    "title": "Add health check pattern skill",
+    "url": "https://github.com/trainline-private/tl-ai-capabilities/pull/64",
+    "ageDays": 11,
+    "reviewStatus": "approved"
+  },
+  {
+    "engineer": "Giorgi Dolmazashvili",
+    "repository": "Compensation",
+    "title": "CLOUD-1517 refactor(health-checks): remove legacy health check implementation and update tests",
+    "url": "https://github.com/trainline-private/Compensation/pull/226",
+    "ageDays": 12,
+    "reviewStatus": "open"
+  },
+  {
+    "engineer": "Saba Giorgadze",
+    "repository": "JourneySummaryService",
+    "title": "feat: upgrade JourneySummaryService to .NET 10",
+    "url": "https://github.com/trainline-private/JourneySummaryService/pull/55",
+    "ageDays": 1,
+    "reviewStatus": "open"
+  },
+  {
+    "engineer": "Saba Giorgadze",
+    "repository": "SGPHandoffConnector",
+    "title": "feat: upgrade SGPHandoffConnector to .NET 10",
+    "url": "https://github.com/trainline-private/SGPHandoffConnector/pull/56",
+    "ageDays": 1,
+    "reviewStatus": "open"
+  },
+  {
+    "engineer": "Kendrick Colaco",
+    "repository": "GatewayActiveJourneyService",
+    "title": "feat: upgrade GatewayActiveJourneyService to .NET 10",
+    "url": "https://github.com/trainline-private/GatewayActiveJourneyService/pull/158",
+    "ageDays": 1,
+    "reviewStatus": "open"
+  },
+  {
+    "engineer": "Kendrick Colaco",
+    "repository": "ecs-workshop-kendrick-api",
+    "title": "chore: update ECS service names to follow Index naming convention",
+    "url": "https://github.com/trainline-private/ecs-workshop-kendrick-api/pull/2",
+    "ageDays": 1,
+    "reviewStatus": "open"
+  }
+]

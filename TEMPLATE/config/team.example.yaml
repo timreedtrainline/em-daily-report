@@ -9,8 +9,6 @@ sources:
     provider: "github"
   tickets:
     provider: "jira"
-  meetings:
-    provider: "outlook"
   messaging:
     provider: "slack"
 
@@ -41,13 +39,18 @@ jira:
 
 slack:
   team_channels:
-    - "example-team-channel"
-  non_team_channel_allowlist: []
-
-outlook:
-  included_calendars:
-    - "Primary"
+    - "team-example-platform"
+    - "team-example-reviews"
+  management_channels: []
+  office_and_networks_channels: []
+  ai_channels: []
 
 rules:
   stagnation_days: 2
   completed_window: "since_previous_report"
+  briefing_cutoff_local_time: "09:15"
+
+llm:
+  enabled: false
+  use_for:
+    - "final_review"

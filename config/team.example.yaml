@@ -1,14 +1,12 @@
-# Copy this file to team.yaml and replace example values.
-
 team:
-  name: "Cloud Native Developer Experience"
-  manager: "Your Name"
+  name: "Example Engineering Team"
+  manager: "Example Manager"
 
 github:
-  organization: "trainline-private"
+  organization: "example-org"
   repositories:
-    - "example-repo-one"
-    - "example-repo-two"
+    - "example-service"
+    - "example-library"
   engineers:
     - name: "Engineer One"
       github: "engineer-one"
@@ -16,9 +14,9 @@ github:
       github: "engineer-two"
 
 jira:
-  base_url: "https://your-company.atlassian.net"
+  base_url: "https://example.atlassian.net/"
   projects:
-    - "CNDX"
+    - "ENG"
   statuses:
     in_progress:
       - "In Progress"
@@ -31,10 +29,18 @@ jira:
 
 slack:
   team_channels:
-    - "cloud-native-devex"
-    - "team-engineering"
-  non_team_channel_allowlist: []
+    - "team-example-platform"
+    - "team-example-reviews"
+  management_channels: []
+  office_and_networks_channels: []
+  ai_channels: []
 
-outlook:
-  included_calendars:
-    - "Primary"
+rules:
+  stagnation_days: 2
+  completed_window: "since_previous_report"
+  briefing_cutoff_local_time: "09:15"
+
+llm:
+  enabled: false
+  use_for:
+    - "final_review"

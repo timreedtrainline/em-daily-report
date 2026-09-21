@@ -1,0 +1,26 @@
+{
+  "name": "em-daily-report",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Low-token daily digest generator for engineering managers.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "collect:github-prs": "bash ./scripts/collect-github-prs.sh",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "digest": "node --import tsx ./src/cli/generate-digest.ts",
+    "digest:preview": "node --import tsx ./src/cli/generate-digest.ts --stdout",
+    "digest:preview:json": "node --import tsx ./src/cli/generate-digest.ts --json"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

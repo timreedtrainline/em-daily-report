@@ -1,0 +1,590 @@
+{
+  "generatedAt": "2026-08-14T22:20:00Z",
+  "sprintName": ".Net Upgrades: Sprint 11 (Q2)",
+  "sprintTickets": [
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1675",
+      "title": "Upgrade AtocRefunds to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1675",
+      "status": "Closed",
+      "daysInCurrentState": 0,
+      "completedToday": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1678",
+      "title": "Upgrade AtocInventoryHelper to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1678",
+      "status": "Ready for Release",
+      "daysInCurrentState": 0
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1676",
+      "title": "Upgrade LsmApi to .Net 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1676",
+      "status": "Ready for Release",
+      "daysInCurrentState": 0
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1741",
+      "title": "Upgrade FareSearch to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1741",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1740",
+      "title": "Upgrade FaresAvailabilityServiceVNext to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1740",
+      "status": "Closed",
+      "daysInCurrentState": 3
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1732",
+      "title": "Upgrade UkRailReservation to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1732",
+      "status": "In Progress",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1737",
+      "title": "Upgrade FPWorker to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1737",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1742",
+      "title": "Upgrade DataCollector to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1742",
+      "status": "In Progress",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1733",
+      "title": "Upgrade TicketInformationApi to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1733",
+      "status": "In Progress",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1734",
+      "title": "Upgrade SmartIssuerWorker to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1734",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1728",
+      "title": "Upgrade JourneyFaresCollider to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1728",
+      "status": "In Progress",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1731",
+      "title": "Upgrade DeliveryTicketSaga to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1731",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1749",
+      "title": "Upgrade TicketAvailabilityRules to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1749",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1736",
+      "title": "Upgrade SecureResourceGateway to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1736",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1750",
+      "title": "Upgrade PWLSdciFileCreator to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1750",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1726",
+      "title": "Upgrade PrintWindowLiteShiftController to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1726",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1735",
+      "title": "Upgrade BarcodeTicketProcessor to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1735",
+      "status": "In Review",
+      "daysInCurrentState": 4,
+      "stale": true
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1757",
+      "title": "Upgrade SuperRoutesComposition to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1757",
+      "status": "Closed",
+      "daysInCurrentState": 0,
+      "completedToday": true
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1770",
+      "title": "Upgrade SustainabilityAPI to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1770",
+      "status": "Closed",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1768",
+      "title": "Upgrade trvEnvironmentalImpactService to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1768",
+      "status": "Closed",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1766",
+      "title": "Upgrade Content Engine to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1766",
+      "status": "Closed",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1769",
+      "title": "Upgrade trvEnvironmentalImpactService.Contracts to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1769",
+      "status": "New",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1772",
+      "title": "Upgrade ConsentServiceLoadTest to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1772",
+      "status": "New",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1712",
+      "title": "Upgrade GatewayActiveJourneyService to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1712",
+      "status": "In Progress",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1767",
+      "title": "Upgrade PledgeHandlerLambda to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1767",
+      "status": "In Progress",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1778",
+      "title": "Upgrade PledgeNotifierLambda to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1778",
+      "status": "In Progress",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1771",
+      "title": "Upgrade SuperRoutesTransformer to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1771",
+      "status": "Ready for Release",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1776",
+      "title": "Upgrade ConsentService to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1776",
+      "status": "Ready for Release",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1711",
+      "title": "Upgrade JourneyTrackingEventConsumer to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1711",
+      "status": "Closed",
+      "daysInCurrentState": 3
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1714",
+      "title": "Upgrade PAYGLedgerTransactionApi to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1714",
+      "status": "Closed",
+      "daysInCurrentState": 4
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1716",
+      "title": "Upgrade PAYGFraudPreventionApi to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1716",
+      "status": "Closed",
+      "daysInCurrentState": 4
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1713",
+      "title": "Upgrade PAYGLedgerFareCalculatorApi to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1713",
+      "status": "Closed",
+      "daysInCurrentState": 4
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1756",
+      "title": "Upgrade TicketAlertRouteProvider to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1756",
+      "status": "In Review",
+      "daysInCurrentState": 7,
+      "stale": true
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1723",
+      "title": "Upgrade SGPHandoffConnector to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1723",
+      "status": "Ready for Release",
+      "daysInCurrentState": 0
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1722",
+      "title": "Upgrade SearchProcessor to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1722",
+      "status": "Ready for Release",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1720",
+      "title": "Upgrade ReferenceDataAggregatorAPIv1 to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1720",
+      "status": "Ready for Release",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1747",
+      "title": "Upgrade ComparisonPlatform to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1747",
+      "status": "Closed",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1743",
+      "title": "Upgrade FaresControlPanel to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1743",
+      "status": "Closed",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1746",
+      "title": "Upgrade DataManagement to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1746",
+      "status": "In Review",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1751",
+      "title": "Upgrade TtiNet to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1751",
+      "status": "In Review",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1754",
+      "title": "Upgrade RefundSdciService to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1754",
+      "status": "In Review",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1725",
+      "title": "Upgrade JourneySummaryServicePopulator to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1725",
+      "status": "In Review",
+      "daysInCurrentState": 2,
+      "stale": true
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1774",
+      "title": "Upgrade CompanjonInsuranceApi to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1774",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1744",
+      "title": "Upgrade FareSearchVNext to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1744",
+      "status": "Closed",
+      "daysInCurrentState": 4
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1745",
+      "title": "Upgrade JourneyFaresColliderVNext to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1745",
+      "status": "Closed",
+      "daysInCurrentState": 4
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1752",
+      "title": "Upgrade TicketOnDeparturePlacer to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1752",
+      "status": "In Review",
+      "daysInCurrentState": 4,
+      "stale": true
+    }
+  ],
+  "completedTickets": [
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1770",
+      "title": "Upgrade SustainabilityAPI to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1770",
+      "status": "Closed",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1768",
+      "title": "Upgrade trvEnvironmentalImpactService to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1768",
+      "status": "Closed",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1766",
+      "title": "Upgrade Content Engine to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1766",
+      "status": "Closed",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1747",
+      "title": "Upgrade ComparisonPlatform to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1747",
+      "status": "Closed",
+      "daysInCurrentState": 1
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1743",
+      "title": "Upgrade FaresControlPanel to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1743",
+      "status": "Closed",
+      "daysInCurrentState": 1
+    }
+  ],
+  "stagnantTickets": [
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1735",
+      "title": "Upgrade BarcodeTicketProcessor to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1735",
+      "status": "In Review",
+      "daysInCurrentState": 4,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1726",
+      "title": "Upgrade PrintWindowLiteShiftController to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1726",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1750",
+      "title": "Upgrade PWLSdciFileCreator to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1750",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1736",
+      "title": "Upgrade SecureResourceGateway to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1736",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1749",
+      "title": "Upgrade TicketAvailabilityRules to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1749",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1731",
+      "title": "Upgrade DeliveryTicketSaga to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1731",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1728",
+      "title": "Upgrade JourneyFaresCollider to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1728",
+      "status": "In Progress",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1734",
+      "title": "Upgrade SmartIssuerWorker to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1734",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1733",
+      "title": "Upgrade TicketInformationApi to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1733",
+      "status": "In Progress",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1742",
+      "title": "Upgrade DataCollector to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1742",
+      "status": "In Progress",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1737",
+      "title": "Upgrade FPWorker to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1737",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1732",
+      "title": "Upgrade UkRailReservation to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1732",
+      "status": "In Progress",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Giorgi Dolmazashvili",
+      "key": "CLOUD-1741",
+      "title": "Upgrade FareSearch to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1741",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Kendrick Colaco",
+      "key": "CLOUD-1756",
+      "title": "Upgrade TicketAlertRouteProvider to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1756",
+      "status": "In Review",
+      "daysInCurrentState": 7,
+      "stale": true
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1752",
+      "title": "Upgrade TicketOnDeparturePlacer to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1752",
+      "status": "In Review",
+      "daysInCurrentState": 4,
+      "stale": true
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1774",
+      "title": "Upgrade CompanjonInsuranceApi to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1774",
+      "status": "In Review",
+      "daysInCurrentState": 3,
+      "stale": true
+    },
+    {
+      "assignee": "Saba Giorgadze",
+      "key": "CLOUD-1725",
+      "title": "Upgrade JourneySummaryServicePopulator to .NET 10",
+      "url": "https://trainline.atlassian.net/browse/CLOUD-1725",
+      "status": "In Review",
+      "daysInCurrentState": 2,
+      "stale": true
+    }
+  ]
+}

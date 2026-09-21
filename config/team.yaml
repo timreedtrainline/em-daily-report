@@ -1,0 +1,74 @@
+team:
+  name: "Cloud Native Developer Experience"
+  manager: "Tim Reed"
+
+github:
+  organization: "trainline-private"
+  repositories:
+    - "team-cloud-native-devex"
+    - "tl-ai-capabilities"
+  engineers:
+    - name: "Kendrick Colaco"
+      github: "kendrickjc"
+    - name: "Saba Giorgadze"
+      github: "sabaTTL"
+    - name: "Giorgi Dolmazashvili"
+      github: "gdolmazashvili-trainline"
+
+jira:
+  base_url: "https://trainline.atlassian.net/"
+  projects:
+    - "CLOUD"
+  statuses:
+    in_progress:
+      - "In Progress"
+    in_review:
+      - "In Review"
+    blocked:
+      - "Blocked"
+    done:
+      - "Done"
+      - "Closed"
+
+slack:
+  team_channels:
+    - "atlas-sre-cloud-native-compute"
+    - "dr-eng-leads"
+    - "event-cloud-native-devex-ai-gathering"
+    - "help-backstage"
+    - "help-cloud-native"
+    - "team-cloud-native-devex"
+    - "team-cloud-native-devex-demos"
+    - "team-cloud-native-devex-estimation"
+    - "team-cloud-native-devex-learnings"
+    - "team-cloud-native-devex-reviews"
+    - "team-dr-staff-plus-cloud-native"
+    - "team-uksupply-dr"
+    - "temp-cndx-dotnet-upgrades"
+    - "web-cloud-native"
+  management_channels:
+    - "help-principals"
+    - "leadership-book-club"
+    - "tech-eng-l4-managers-only"
+    - "tech-management"
+    - "tl-people-managers"
+  office_and_networks_channels:
+    - "all-incidents"
+    - "announcements-index"
+    - "tl-announcements"
+    - "tlc-engineroom-v2"
+    - "trainline-tech"
+    - "we-came-by-train"
+  ai_channels:
+    - "ai"
+    - "help-ai-dev-tooling"
+    - "help-airtable"
+    - "proj-ai-platform"
+    - "spec-driven-development"
+    - "supply-20-nexus"
+    - "tech-ai-devtoolkit"
+    - "tl-ai"
+rules:
+  stagnation_days: 2
+  completed_window: "since_previous_report"
+  briefing_cutoff_local_time: "09:15"

@@ -1,0 +1,111 @@
+{
+  "generatedAt": "2026-08-14T22:36:55Z",
+  "windowStart": "2026-08-13T22:36:55Z",
+  "windowEnd": "2026-08-14T22:36:55Z",
+  "slackLaterItems": [
+    {
+      "channel": "team-dr-staff-plus-cloud-native",
+      "author": "Pav Drozdov",
+      "excerpt": "Will miss next week due to A/L; asked whether the overlapping meeting could move earlier.",
+      "url": "https://trainline.enterprise.slack.com/archives/C0BM4KXHH2A/p1786712905140319?thread_ts=1786703859.100699&cid=C0BM4KXHH2A",
+      "whyItMatters": "Saved for later. The thread has a later reply from Tim agreeing to move it, so this appears resolved and likely just needs clearing from Later."
+    },
+    {
+      "channel": "team-cloud-native-devex",
+      "author": "Tim Reed",
+      "excerpt": "Staff+ group outcomes and follow-up actions after the discussion.",
+      "url": "https://trainline.enterprise.slack.com/archives/C0AH4MG8S2K/p1785509346021679",
+      "whyItMatters": "Saved for later."
+    },
+    {
+      "channel": "tl-announcements",
+      "author": "Clare Kelly",
+      "excerpt": "FY27 goals in Bob announcement.",
+      "url": "https://trainline.enterprise.slack.com/archives/C021SNRGJRX/p1774866297600949?thread_ts=1774866297.600949&cid=C021SNRGJRX",
+      "whyItMatters": "Saved for later."
+    }
+  ],
+  "teamThreadItems": [
+    {
+      "channel": "team-uksupply-dr",
+      "author": "Rakesh Kumar",
+      "excerpt": "Need a Dovico timesheet code for DR work and assignment for contributors; requester is off until August 27.",
+      "url": "https://trainline.enterprise.slack.com/archives/C0BLVPUQNHF/p1786691930680539?thread_ts=1786691930.680539&cid=C0BLVPUQNHF",
+      "whyItMatters": "Active operational follow-up from the last 24 hours. There is a temporary workaround to use OpEx, but the dedicated DR code still needs ownership and closure."
+    },
+    {
+      "channel": "dr-eng-leads",
+      "author": "Simon McManus",
+      "excerpt": "Asked whether a Dovico code exists for DR; reply says one will be created and planning should temporarily sit under strat systems in tech opex.",
+      "url": "https://trainline.enterprise.slack.com/archives/C0BMYGH00QZ/p1786696332265009",
+      "whyItMatters": "Signals the same DR admin dependency in the leadership channel and confirms the current interim plan while the formal code is being created."
+    },
+    {
+      "channel": "team-cloud-native-devex",
+      "author": "Tim Reed",
+      "excerpt": "Requested quick team feedback on a linked item and asked the team to share views.",
+      "url": "https://trainline.enterprise.slack.com/archives/C0AH4MG8S2K/p1786723674323799",
+      "whyItMatters": "Fresh feedback request from the last 24 hours that may need a nudge if responses do not come in."
+    },
+    {
+      "channel": "team-cloud-native-devex-learnings",
+      "author": "Kendrick Colaco",
+      "excerpt": "Shared the GatewayReferenceDataService AI vs Human Modernisation Report; follow-up in thread is to corroborate the AI analysis with owning teams.",
+      "url": "https://trainline.enterprise.slack.com/archives/C0BGA8PTSRH/p1786701944132909?thread_ts=1786701944.132909&cid=C0BGA8PTSRH",
+      "whyItMatters": "Relevant review follow-up from the last 24 hours: the report is useful, but its conclusions still need validation before they are relied on more widely."
+    },
+    {
+      "channel": "help-cloud-native",
+      "author": "Calvin Tapp",
+      "excerpt": "Shared an optional PR for smoke tests on preview builds after a community discussion.",
+      "url": "https://trainline.enterprise.slack.com/archives/C06QEHM5D51/p1786704624097589",
+      "whyItMatters": "Low-friction review opportunity from the last 24 hours if the team wants to pick up a cloud-native improvement next."
+    }
+  ],
+  "secondarySlackItems": [
+    {
+      "channel": "tech-eng-l4-managers-only",
+      "author": "Willem van der Merwe",
+      "excerpt": "Asked managers to review Q3/Q4 work against a proposed EComm code freeze for Jan 2027 DR deadlines and flag any dependency or delivery risks before Q3 starts.",
+      "url": "https://trainline.enterprise.slack.com/archives/C06STJ0BQ7M/p1786703690082979",
+      "whyItMatters": "This is a live management follow-up from the last 24 hours with an explicit ask and a short deadline. It may need a cloud-native view on downstream dependencies or planned work."
+    },
+    {
+      "channel": "all-incidents",
+      "author": "incident",
+      "excerpt": "A P4 smartcard-bookings incident is still investigating; manual steps exist, but the fix sits with DTS and may continue causing support noise until cleared.",
+      "url": "https://trainline.enterprise.slack.com/archives/C08HBPJCYP8/p1786693472051409",
+      "whyItMatters": "This is the only unresolved incident update in the secondary slice from the last 24 hours, so it is worth keeping on the radar."
+    },
+    {
+      "channel": "announcements-index",
+      "author": "George Arnall",
+      "excerpt": "Shared a breaking change for the shared DynamoDB Terraform module v2.0.0: inline GSIs are removed and teams still using them must migrate before upgrading.",
+      "url": "https://trainline.enterprise.slack.com/archives/C07NT1B9UE4/p1786714605922419",
+      "whyItMatters": "Useful platform change notice from the last 24 hours. Any team-owned Terraform using inline GSIs will need migration planning before taking the upgrade."
+    }
+  ],
+  "aiUpdates": [
+    {
+      "channel": "help-ai-dev-tooling",
+      "author": "Karen Martin",
+      "excerpt": "Asked engineers to complete a short survey on how Trainline's engineering AI tools are working and where they are falling short.",
+      "url": "https://trainline.enterprise.slack.com/archives/C08PHA15X25/p1786720438953849",
+      "whyItMatters": "Concrete feedback request from the last 24 hours that can influence the internal AI tooling roadmap."
+    },
+    {
+      "channel": "ai",
+      "author": "Kannappan Somasundaram",
+      "excerpt": "Shared an updated tl-ai-capabilities PR for the external Matt Pocock skills, including a spec-driven-development workflow and a thread claim that the change reduces token usage and back-and-forth.",
+      "url": "https://trainline.enterprise.slack.com/archives/C04R86JP0QP/p1786715576697209?thread_ts=1786715576.697209&cid=C04R86JP0QP",
+      "whyItMatters": "Directly relevant to the team's low-token policy and reusable AI workflow design, with a live PR to inspect if the approach looks worth adopting."
+    },
+    {
+      "channel": "tl-ai",
+      "author": "Syedul Khalique",
+      "excerpt": "Posted the week 5 Summer of AI Learning roundup with recordings, feedback forms, and the current quiz leaderboard.",
+      "url": "https://trainline.enterprise.slack.com/archives/C09962RCTPA/p1786698002858779",
+      "whyItMatters": "Useful awareness item for optional AI learning and enablement across the org from the last 24 hours."
+    }
+  ]
+}

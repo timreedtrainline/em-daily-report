@@ -4,24 +4,13 @@
 
 Generate a daily digest for an engineering manager with:
 
-- Meetings for the day and preparation prompts
 - Open pull requests grouped by engineer
 - Completed and stagnant tickets
 - Messaging follow-ups
 
 ## Suggested Sections
 
-### 1. Meetings Today
-
-Suggested fields:
-- Title
-- Time
-- Attendees
-- Join link
-- Context
-- Preparation prompts
-
-### 2. Open Pull Requests
+### 1. Open Pull Requests
 
 Suggested fields:
 - Engineer
@@ -31,28 +20,49 @@ Suggested fields:
 - Age in days
 - Review status
 
-### 3. Ticket Flow
+### 2. Ticket Flow
 
 Suggested subsections:
-- Completed since previous report
-- In progress older than threshold
-- In review older than threshold
-- Blocked older than threshold
+- Completed since the previous `9:15 a.m.` briefing
+- On track
+- Off track
 
-### 4. Follow-Ups
+Suggested rules:
+- Use a daily briefing window from the previous day at `9:15 a.m.` local time to the current day at `9:15 a.m.` local time for completed work
+- Use business-day current-state aging for on-track vs off-track classification, discounting weekends
+
+### 3. Follow-Ups
 
 Suggested subsections:
 - Saved items
-- Messages from outside core team channels
 - Active team threads
+- Secondary channel updates
+
+### 4. AI Updates
+
+Suggested subsections:
+- AI channel highlights
+- Important replies or decisions
 
 ## Output Shape
 
 Suggested output:
 
 1. Executive summary
-2. Meetings today
-3. PRs by engineer
-4. Ticket flow
-5. Follow-ups
+2. PRs by engineer
+3. Ticket flow
+4. Follow-ups
+5. AI updates
 6. Recommended manager actions
+
+## Slack Scope Model
+
+Primary:
+- `team_channels`
+
+Secondary:
+- `management_channels`
+- `office_and_networks_channels`
+
+Separate section:
+- `ai_channels`
